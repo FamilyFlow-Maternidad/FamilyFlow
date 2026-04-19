@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>FamilyFlow – Equilibra la carga mental y física en tu hogar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TailwindCSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- NAVBAR -->
+  <header class="w-full border-b border-slate-200 bg-white/80 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-rose-400 via-pink-400 to-orange-300 flex items-center justify-center text-white font-bold text-lg">
+          F
+        </div>
+        <span class="font-semibold text-lg tracking-tight">FamilyFlow</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#como-funciona" class="hover:text-rose-500 transition">Cómo funciona</a>
+        <a href="#beneficios" class="hover:text-rose-500 transition">Beneficios</a>
+        <a href="#contacto" class="hover:text-rose-500 transition">Contacto</a>
+      </nav>
+      <a href="#contacto" class="hidden md:inline-flex px-4 py-2 rounded-full bg-rose-500 text-white text-sm font-medium shadow-sm hover:bg-rose-600 transition">
+        Quiero probarla
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-rose-50 via-white to-sky-50 pointer-events-none"></div>
+
+    <div class="relative max-w-6xl mx-auto px-4 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
+      <!-- Texto -->
+      <div>
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-50 text-rose-600 text-xs font-semibold mb-4">
+          Nueva maternidad · Corresponsabilidad en pareja
+        </span>
+
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 mb-4">
+          Menos carga invisible, más equipo.
+          <span class="block text-rose-500">Organizad la crianza y el hogar sin que una persona lo cargue todo.</span>
+        </h1>
+
+        <p class="text-slate-600 text-base sm:text-lg mb-6">
+          FamilyFlow está pensada para mujeres que acaban de ser madres y se sienten desbordadas por la carga física y mental del día a día. 
+          La herramienta ayuda a que la pareja comparta de forma más justa las tareas del hogar y la crianza.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="#contacto" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-rose-500 text-white font-medium text-sm shadow-md hover:bg-rose-600 transition">
+            Quiero apuntarme a la beta
+          </a>
+          <a href="#como-funciona" class="inline-flex items-center justify-center px-6 py-3 rounded-full border border-slate-300 text-slate-700 font-medium text-sm hover:border-rose-400 hover:text-rose-500 transition">
+            Ver cómo funciona
+          </a>
+        </div>
+      </div>
+
+      <!-- Imágenes hero -->
+      <div class="relative">
+        <div class="absolute -top-10 -right-10 w-40 h-40 bg-rose-200/60 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-orange-200/60 rounded-full blur-3xl"></div>
+
+        <div class="relative grid gap-4">
+          <!-- Imagen principal -->
+          <div class="rounded-3xl overflow-hidden shadow-lg border border-slate-100 bg-white">
+            <img
+              src="https://img.freepik.com/foto-gratis/padre-madre-estan-cuidando-su-hijo_53876-138125.jpg?t=st=1776598524~exp=1776602124~hmac=422dc78c070daf0f826bd7d4f4e396137ce2cc30a8d2afdf2881647657acd8f4&w=740"
+              alt="Familia compartiendo tiempo con su bebé"
+              class="w-full h-80 object-cover"
+            />
+          </div>
+
+          <div class="grid grid-cols-3 gap-4">
+            <div class="rounded-3xl overflow-hidden shadow-md border border-slate-100">
+              <img
+                src="https://img.freepik.com/foto-gratis/papa-e-hijo-jugando-juntos_53876-146059.jpg"
+                alt="Padre e hijo jugando"
+                class="w-full h-32 object-cover"
+              />
+            </div>
+            <div class="rounded-3xl overflow-hidden shadow-md border border-slate-100">
+              <img
+                src="https://img.freepik.com/foto-gratis/padre-ensenando-su-hijo-hacer-sushi_23-2151298279.jpg?t=st=1776595702~exp=1776599302~hmac=edba618c5d7cc7f753667906235a3e57ad61ad4e3cdbae9f043a4d1521966020&w=360"
+                alt="Tareas compartidas en la cocina"
+                class="w-full h-32 object-cover"
+              />
+            </div>
+            <div class="rounded-3xl overflow-hidden shadow-md border border-slate-100">
+              <img
+                src="https://img.freepik.com/foto-gratis/madre-e-hija-leyendo-libro_329181-9403.jpg?t=st=1776597293~exp=1776600893~hmac=3649aeeb7f05bb5586cb696298584ca96eedaa27b606d316c00b0038d77848ca&w=360"
+                alt="Momentos de lectura"
+                class="w-full h-32 object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: EL PROBLEMA -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="rounded-3xl overflow-hidden shadow-lg order-2 lg:order-1">
+        <img 
+          src="https://img.freepik.com/foto-gratis/padre-celebrando-dia-padre-sus-hijas_23-2148100533.jpg" 
+          alt="Padre con sus hijas" 
+          class="w-full h-96 object-cover"
+        />
+      </div>
+      <div class="order-1 lg:order-2">
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+          La carga invisible: Lo que no se ve, pero agota.
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mb-4">
+          Recordar vacunas, organizar citas médicas, pensar en el menú semanal... Muchas mujeres sienten que, tras ser madres, el peso de la gestión familiar recae solo sobre ellas.
+        </p>
+        <div class="bg-rose-50 border border-rose-100 rounded-2xl p-6 space-y-3 text-sm text-rose-900">
+          <ul class="space-y-2 list-disc list-inside font-medium">
+            <li>¿Sientes que si tú no piensas en algo, nadie lo hará?</li>
+            <li>¿Te vas a dormir agotada mentalmente?</li>
+            <li>¿Te cuesta delegar porque requiere más explicación que hacerlo tú?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: EQUIPO -->
+  <section class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+          Construid un equipo real
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mb-6">
+          FamilyFlow hace visible lo invisible. No se trata de "ayudar", sino de que ambos tengan la foto completa de lo que necesita el hogar para funcionar.
+        </p>
+        <ul class="space-y-4">
+          <li class="flex gap-3">
+            <span class="w-6 h-6 rounded-full bg-rose-500 flex items-center justify-center text-white text-xs shrink-0 mt-1">✓</span>
+            <p class="text-slate-700"><strong>Reparto equitativo:</strong> Visualizad quién gestiona y quién ejecuta.</p>
+          </li>
+          <li class="flex gap-3">
+            <span class="w-6 h-6 rounded-full bg-rose-500 flex items-center justify-center text-white text-xs shrink-0 mt-1">✓</span>
+            <p class="text-slate-700"><strong>Anticipación con IA:</strong> La app os avisa de lo que viene antes de que se convierta en una urgencia.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="rounded-3xl overflow-hidden shadow-lg border-8 border-white">
+        <img 
+          src="https://img.freepik.com/foto-gratis/pareja-limpiando-casa-cantando-aspiradora_482257-72.jpg?t=st=1776598310~exp=1776601910~hmac=7bdd1fe369ed93b61266851910375e047a68f9c35cb9735e530ca76d3367483f&w=740" 
+          alt="Pareja limpiando junta y divirtiéndose" 
+          class="w-full h-96 object-cover"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
+          ¿Os unís al cambio?
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base">
+          Estamos lanzando la beta privada. Deja tus datos y sé de las primeras familias en recuperar el equilibrio.
+        </p>
+      </div>
+
+      <form action="#" method="POST" class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm space-y-5">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium text-slate-700 mb-1">Nombre</label>
+            <input type="text" required class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:ring-2 focus:ring-rose-400 focus:border-rose-400 outline-none" placeholder="Tu nombre">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 mb-1">E-mail</label>
+            <input type="email" required class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:ring-2 focus:ring-rose-400 focus:border-rose-400 outline-none" placeholder="tucorreo@example.com">
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Cuéntanos tu situación</label>
+          <textarea rows="3" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:ring-2 focus:ring-rose-400 focus:border-rose-400 outline-none" placeholder="Ej: Me siento desbordada con la carga mental..."></textarea>
+        </div>
+        <button type="submit" class="w-full py-3 rounded-full bg-rose-500 text-white font-semibold shadow-md hover:bg-rose-600 transition">
+          Enviar mi interés
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-200 bg-slate-50 py-8">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col items-center gap-4">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 rounded-full bg-rose-500 flex items-center justify-center text-white font-bold text-xs">F</div>
+        <span class="font-semibold text-slate-700">FamilyFlow</span>
+      </div>
+      <p class="text-xs text-slate-500">© <span id="year"></span> FamilyFlow · Cuidar es tarea de todos.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
